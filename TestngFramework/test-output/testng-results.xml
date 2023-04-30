@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="1" total="15" passed="13" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-04-30T14:58:30 EDT" name="Suite1" finished-at="2023-04-30T14:59:11 EDT" duration-ms="41064">
+    <groups>
+      <group name="Regression">
+        <method signature="LoginTest_Amazon.validateNavigateToWishList()[pri:1, instance:test.LoginTest_Amazon@16293aa2]" name="validateNavigateToWishList" class="test.LoginTest_Amazon"/>
+        <method signature="LoginTest_Amazon.validateNavigateToNewRelease()[pri:2, instance:test.LoginTest_Amazon@16293aa2]" name="validateNavigateToNewRelease" class="test.LoginTest_Amazon"/>
+        <method signature="LoginTest_Amazon.validateCustomerLogin(java.lang.String,java.lang.String)[pri:3, instance:test.LoginTest_Amazon@16293aa2]" name="validateCustomerLogin" class="test.LoginTest_Amazon"/>
+        <method signature="LoginTest_Amazon.validatecustomerLogout()[pri:4, instance:test.LoginTest_Amazon@16293aa2]" name="validatecustomerLogout" class="test.LoginTest_Amazon"/>
+        <method signature="LoginTest_Amazon.inValidEmail(java.lang.String)[pri:5, instance:test.LoginTest_Amazon@16293aa2]" name="inValidEmail" class="test.LoginTest_Amazon"/>
+        <method signature="LoginTest_Amazon.validEmailInValidPassword(java.lang.String,java.lang.String)[pri:6, instance:test.LoginTest_Amazon@16293aa2]" name="validEmailInValidPassword" class="test.LoginTest_Amazon"/>
+        <method signature="LoginTest_Amazon.validateProductSearch(java.lang.String,java.lang.String)[pri:7, instance:test.LoginTest_Amazon@16293aa2]" name="validateProductSearch" class="test.LoginTest_Amazon"/>
+        <method signature="LoginTest_Amazon.validateSelectProduct(java.lang.String)[pri:8, instance:test.LoginTest_Amazon@16293aa2]" name="validateSelectProduct" class="test.LoginTest_Amazon"/>
+        <method signature="LoginTest_Amazon.validateselectDeliveryLocation(java.lang.String,java.lang.String)[pri:9, instance:test.LoginTest_Amazon@16293aa2]" name="validateselectDeliveryLocation" class="test.LoginTest_Amazon"/>
+        <method signature="LoginTest_Amazon.validateSponsoredProduct()[pri:10, instance:test.LoginTest_Amazon@16293aa2]" name="validateSponsoredProduct" class="test.LoginTest_Amazon"/>
+        <method signature="LoginTest_Amazon.validateAddToCart()[pri:11, instance:test.LoginTest_Amazon@16293aa2]" name="validateAddToCart" class="test.LoginTest_Amazon"/>
+        <method signature="LoginTest_Amazon.validateCheckout()[pri:12, instance:test.LoginTest_Amazon@16293aa2]" name="validateCheckout" class="test.LoginTest_Amazon"/>
+      </group> <!-- Regression -->
+    </groups>
+    <test started-at="2023-04-30T14:58:30 EDT" name="Chrome" finished-at="2023-04-30T14:59:11 EDT" duration-ms="41064">
+      <class name="test.LoginTest_Amazon">
+        <test-method is-config="true" signature="beforeSuite(java.lang.String,java.lang.String)[pri:0, instance:test.LoginTest_Amazon@16293aa2]" started-at="2023-04-30T14:58:34 EDT" name="beforeSuite" finished-at="2023-04-30T14:58:39 EDT" duration-ms="4473" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.amazon.ca/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method is-config="true" signature="BeforeClass()[pri:0, instance:test.LoginTest_Amazon@16293aa2]" started-at="2023-04-30T14:58:39 EDT" name="BeforeClass" finished-at="2023-04-30T14:58:39 EDT" duration-ms="53" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeClass -->
+        <test-method signature="validateNavigateToWishList()[pri:1, instance:test.LoginTest_Amazon@16293aa2]" started-at="2023-04-30T14:58:39 EDT" name="validateNavigateToWishList" finished-at="2023-04-30T14:58:41 EDT" duration-ms="1885" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateNavigateToWishList -->
+        <test-method signature="validateNavigateToNewRelease()[pri:2, instance:test.LoginTest_Amazon@16293aa2]" started-at="2023-04-30T14:58:41 EDT" name="validateNavigateToNewRelease" finished-at="2023-04-30T14:58:42 EDT" duration-ms="1929" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateNavigateToNewRelease -->
+        <test-method signature="validateCustomerLogin(java.lang.String,java.lang.String)[pri:3, instance:test.LoginTest_Amazon@16293aa2]" started-at="2023-04-30T14:58:42 EDT" name="validateCustomerLogin" finished-at="2023-04-30T14:58:44 EDT" duration-ms="1976" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2262242214]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ayush1@systems]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateCustomerLogin -->
+        <test-method signature="validatecustomerLogout()[pri:4, instance:test.LoginTest_Amazon@16293aa2]" started-at="2023-04-30T14:58:44 EDT" name="validatecustomerLogout" finished-at="2023-04-30T14:58:47 EDT" duration-ms="2576" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatecustomerLogout -->
+        <test-method signature="inValidEmail(java.lang.String)[pri:5, instance:test.LoginTest_Amazon@16293aa2]" started-at="2023-04-30T14:58:47 EDT" name="inValidEmail" finished-at="2023-04-30T14:58:48 EDT" duration-ms="490" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ABCG3434]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inValidEmail -->
+        <test-method signature="validEmailInValidPassword(java.lang.String,java.lang.String)[pri:6, instance:test.LoginTest_Amazon@16293aa2]" started-at="2023-04-30T14:58:48 EDT" name="validEmailInValidPassword" finished-at="2023-04-30T14:58:48 EDT" duration-ms="742" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2262242214]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2323****]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validEmailInValidPassword -->
+        <test-method signature="validateProductSearch(java.lang.String,java.lang.String)[pri:7, instance:test.LoginTest_Amazon@16293aa2]" started-at="2023-04-30T14:58:48 EDT" name="validateProductSearch" finished-at="2023-04-30T14:58:56 EDT" duration-ms="7340" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[samsung galaxy s10]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1-48 of]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateProductSearch -->
+        <test-method signature="validateSelectProduct(java.lang.String)[pri:8, instance:test.LoginTest_Amazon@16293aa2]" started-at="2023-04-30T14:58:56 EDT" name="validateSelectProduct" finished-at="2023-04-30T14:59:00 EDT" duration-ms="4431" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[$239.00]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateSelectProduct -->
+        <test-method signature="validateselectDeliveryLocation(java.lang.String,java.lang.String)[pri:9, instance:test.LoginTest_Amazon@16293aa2]" started-at="2023-04-30T14:59:00 EDT" name="validateselectDeliveryLocation" finished-at="2023-04-30T14:59:06 EDT" duration-ms="6130" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[L7M]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0Z9]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Entered postal code is not as expected expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Entered postal code is not as expected expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1577)
+at org.testng.Assert.assertTrue(Assert.java:56)
+at test.LoginTest_Amazon.validateselectDeliveryLocation(LoginTest_Amazon.java:131)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateselectDeliveryLocation -->
+        <test-method signature="validateSponsoredProduct()[pri:10, instance:test.LoginTest_Amazon@16293aa2]" started-at="2023-04-30T14:59:06 EDT" name="validateSponsoredProduct" finished-at="2023-04-30T14:59:09 EDT" duration-ms="2344" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateSponsoredProduct -->
+        <test-method signature="validateAddToCart()[pri:11, instance:test.LoginTest_Amazon@16293aa2]" started-at="2023-04-30T14:59:09 EDT" name="validateAddToCart" finished-at="2023-04-30T14:59:10 EDT" duration-ms="1320" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateAddToCart -->
+        <test-method signature="validateCheckout()[pri:12, instance:test.LoginTest_Amazon@16293aa2]" started-at="2023-04-30T14:59:10 EDT" name="validateCheckout" finished-at="2023-04-30T14:59:11 EDT" duration-ms="1022" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateCheckout -->
+      </class> <!-- test.LoginTest_Amazon -->
+      <class name="test.LandingValidation_Amazon">
+        <test-method is-config="true" signature="beforeSuite(java.lang.String,java.lang.String)[pri:0, instance:test.LandingValidation_Amazon@4fb0f2b9]" started-at="2023-04-30T14:58:30 EDT" name="beforeSuite" finished-at="2023-04-30T14:58:34 EDT" duration-ms="3964" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.amazon.ca/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method signature="ValidateTitle()[pri:0, instance:test.LandingValidation_Amazon@4fb0f2b9]" started-at="2023-04-30T14:58:34 EDT" name="ValidateTitle" finished-at="2023-04-30T14:58:34 EDT" duration-ms="172" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateTitle -->
+        <test-method signature="ValidateUrl()[pri:0, instance:test.LandingValidation_Amazon@4fb0f2b9]" started-at="2023-04-30T14:58:34 EDT" name="ValidateUrl" finished-at="2023-04-30T14:58:34 EDT" duration-ms="87" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateUrl -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:test.LandingValidation_Amazon@4fb0f2b9]" started-at="2023-04-30T14:59:11 EDT" name="afterSuite" finished-at="2023-04-30T14:59:11 EDT" duration-ms="388" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- test.LandingValidation_Amazon -->
+    </test> <!-- Chrome -->
+  </suite> <!-- Suite1 -->
+</testng-results>
