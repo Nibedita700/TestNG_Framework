@@ -5,6 +5,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.CacheLookup;
 import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.How;
 import org.openqa.selenium.support.PageFactory;
 
 import driverManager.DriverManager;
@@ -18,23 +19,23 @@ public class LoginAction_Amazon {
 	
 	
 	@CacheLookup
-	@FindBy(xpath="//*[@id=\"nav-link-accountList-nav-line-1\"]")
+	@FindBy(xpath="//*[@id=\"nav-link-accountList\"]")
 	public WebElement accountList;
 	
 	@CacheLookup
-	@FindBy(xpath="//*[@id=\"nav-link-accountList-nav-line-1\"]")
-		public WebElement accountList1;
+	@FindBy(xpath="//*[@id=\"nav-link-accountList\"]")
+	public WebElement accountList1;
 	
 	@CacheLookup
-	@FindBy(xpath="//*[@id=\"nav-link-accountList-nav-line-1\"]")
+	@FindBy(xpath="//*[@id=\"nav-link-accountList\"]")
 	public WebElement accountList2;
 	
 	@CacheLookup
-	@FindBy(xpath ="//*[@id=\"nav-al-wishlist\"]/a[1]/span")
-	public WebElement wishlist ;
+	@FindBy(partialLinkText = "Create a Wish List")
+	public WebElement wishlist;
 	
 	@CacheLookup
-	@FindBy(xpath = "//*[@id=\"nav-xshop\"]/a[3]")
+	@FindBy(partialLinkText = "New Releases")
 	public WebElement newreleases;
 	
 	@CacheLookup
@@ -90,6 +91,7 @@ public class LoginAction_Amazon {
 	@FindBy(xpath = "//*[@id=\"a-page\"]/div[1]/div[1]/div/a")
 	public WebElement amazonLogo;	
 	
+	
 	@CacheLookup
 	@FindBy(xpath = "//*[@id=\"twotabsearchtextbox\"]")
 	public WebElement searchTextBox;
@@ -100,7 +102,7 @@ public class LoginAction_Amazon {
 	
 		
 	@CacheLookup
-	@FindBy(xpath = "//*[@id=\"search\"]/span/div/h1/div/div[1]/div/div")
+	@FindBy(xpath = "//*[@id=\"search\"]/span/div/h1/div")
 	public WebElement searchResult;
 	
 		

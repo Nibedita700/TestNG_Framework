@@ -9,7 +9,7 @@
   	<parameter name="ProductName" value="samsung galaxy s10"></parameter>
   	<!--  <parameter name="SearchResult" value="1-48 of 679 results for &quot;samsung galaxy s10&quot;"></parameter>-->
   	<parameter name="SearchResult" value="1-48 of"></parameter>
-  	<parameter name="ProductPrice" value="$239.00"></parameter>
+  	<parameter name="ProductPrice" value="$238.99"></parameter>
   	<parameter name="PostalCode1" value="L7M"></parameter>
   	<parameter name="PostalCode2" value="0Z9"></parameter>
     <test thread-count="5" name="RegressionTest Chrome">
